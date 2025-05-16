@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Lobster&display=swap');
+
+
+:root{
+    /*color variables*/
+    --clr-mint-green: #4ECCA3;
+    --clr-dark-slate: #393E46;
+    /*font variables*/
+    --font-Lobster: "Lobster", sans-serif;
+    --font-Cursive: "Cedarville Cursive", cursive;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--clr-dark-slate);
+}
+
+.container{
+   display: flex;
+   margin: 10%; 
+   flex-direction: column;   
+   
+}
+
+h1{
+    text-align: center;
+    font-size: 7rem;
+    color: var(--clr-mint-green);
+    font-family: var(--font-Lobster), var(--font-Cursive);
+    margin-top: 0;
+    margin-bottom: 3%;
+}
+
+.player-dices{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+span{
+    margin: 2%;
+}
+
+p{
+    text-align: center;
+    font-size: 2rem;
+    color: var(--clr-mint-green);
+    margin: 6%;
+    font-family: var(--font-Lobster), var(--font-Cursive);
+}
+
